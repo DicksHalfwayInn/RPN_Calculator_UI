@@ -12,10 +12,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RPN_Calculator_UI
-build_property.ProjectDir = C:\Users\COMPLEXDEV\RiderProjects\RPN_Calculator_UI\RPN_Calculator_UI\
+build_property.ProjectDir = D:\Repos\RPN_Calculator_UI\RPN_Calculator_UI\RPN_Calculator_UI\
 
-[C:/Users/COMPLEXDEV/RiderProjects/RPN_Calculator_UI/RPN_Calculator_UI/App.axaml]
+[D:/Repos/RPN_Calculator_UI/RPN_Calculator_UI/RPN_Calculator_UI/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/COMPLEXDEV/RiderProjects/RPN_Calculator_UI/RPN_Calculator_UI/MainWindow.axaml]
+[D:/Repos/RPN_Calculator_UI/RPN_Calculator_UI/RPN_Calculator_UI/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

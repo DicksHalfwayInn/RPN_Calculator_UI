@@ -11,6 +11,7 @@
           "Avalonia": "0.10.21",
           "Avalonia.Desktop": "0.10.21",
           "Avalonia.Diagnostics": "0.10.21",
+          "CommunityToolkit.Mvvm": "8.2.0",
           "XamlNameReferenceGenerator": "1.6.1"
         },
         "runtime": {
@@ -245,6 +246,14 @@
           "lib/netstandard2.0/Avalonia.X11.dll": {
             "assemblyVersion": "0.10.21.0",
             "fileVersion": "0.10.21.0"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.0": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.0.1"
           }
         }
       },
@@ -999,6 +1008,13 @@
       "sha512": "sha512-bB5DNFdw10G/mddAQHv9378Sfus70xk+CmpbZrX18E/q66EJ2vZx9hLpIZtn9xo7ee13RF073qxmbtbUs185zg==",
       "path": "avalonia.x11/0.10.21",
       "hashPath": "avalonia.x11.0.10.21.nupkg.sha512"
+    },
+    "CommunityToolkit.Mvvm/8.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F883u+B0AVUkRZS+VQBiZEJiqlGiiQhGA8Ejy1/Y8fl4ecBmSd+HYuDso0iiUhh+UxRDjp2aTQ7jGkuL2S4NrA==",
+      "path": "communitytoolkit.mvvm/8.2.0",
+      "hashPath": "communitytoolkit.mvvm.8.2.0.nupkg.sha512"
     },
     "HarfBuzzSharp/2.8.2.1-preview.108": {
       "type": "package",

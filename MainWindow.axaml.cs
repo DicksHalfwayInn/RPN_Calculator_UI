@@ -5,16 +5,22 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
+using EquationChatGFT;
 
 namespace RPN_Calculator_UI;
    
     public partial class MainWindow : Window
     {
-        public MainWindow()
+    private readonly MainWindowViewModel _solver = new MainWindowViewModel();
+
+
+    public MainWindow()
         {
             InitializeComponent();
             this.AttachDevTools();
             TextBox1 = this.FindControl<TextBox>("TextBox1");
+
+        DataContext = _solver;
         }
         
         private void InitializeComponent()

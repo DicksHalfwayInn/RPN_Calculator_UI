@@ -19,6 +19,7 @@
         </Grid>
         <Grid Height="80" ColumnDefinitions="Auto, Auto, *, Auto">
             <TextBox Grid.Column="0" x:Name="TextBox1" Height="40" Width="350" Margin="15,10,10,10" TextAlignment="Right"
+					 Text="{Binding TextBox1}"
                      ></TextBox>
             <Grid.Styles>
                 <Style Selector="TextBox">
@@ -96,7 +97,7 @@
                     Click="ButtonSqrt_Click"
                     ></Button>
             <Button Grid.Column="2" Content="=" Width="182" Height="40" Margin="-10.5,300,20,20"
-                    Click="ButtonResult_Click"
+                    Command ="{Binding SolveCommand}"
                     Background="#f07900" Foreground="Black"></Button>
             <Grid.Styles>
                 <Style Selector="Button:pointerover /template/ ContentPresenter#PART_ContentPresenter">
